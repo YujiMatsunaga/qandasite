@@ -64,6 +64,7 @@
   --bs-body-bg: #fff;
 }
 
+
 *,
 *::before,
 *::after {
@@ -242,7 +243,7 @@ a {
 }
 
 a:hover {
-  color: #cca000;
+  color: #b86b07;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -353,6 +354,7 @@ textarea {
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
+  background-color: none;
 }
 
 button,
@@ -486,9 +488,6 @@ progress {
   vertical-align: baseline;
 }
 
-[hidden] {
-  display: none !important;
-}
 
 .lead {
   font-size: 1.25rem;
@@ -637,7 +636,7 @@ progress {
 .container-md,
 .container-sm {
   width: 100%;
-  height: 100%;
+  height: 50%;
   padding-right: var(--bs-gutter-x, 0.75rem);
   padding-left: var(--bs-gutter-x, 0.75rem);
   margin-right: auto;
@@ -2488,7 +2487,7 @@ textarea.form-control-lg {
   height: 1em;
   margin-top: 0.25em;
   vertical-align: top;
-  background-color: #fff;
+  /* background-color: #fff; */
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -2778,7 +2777,7 @@ textarea.form-control-lg {
   color: #212529;
   text-align: center;
   white-space: nowrap;
-  background-color: #e9ecef;
+  /* background-color: #e9ecef; */
   border: 1px solid #ced4da;
   border-radius: 0.25rem;
 }
@@ -3039,8 +3038,9 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: #ffc800;
-  border-color: #ffc800;
+  background-color: #ee9c03;
+  border-color: #e99210;
+
 }
 .btn-primary:hover {
   color: #fff;
@@ -3433,7 +3433,7 @@ textarea.form-control-lg {
 }
 .btn-outline-light:hover {
   color: #000;
-  background-color: #f8f9fa;
+  background-color: rgba(55, 55, 55, 0.98);
   border-color: #f8f9fa;
 }
 .btn-check:focus + .btn-outline-light, .btn-outline-light:focus {
@@ -4677,7 +4677,7 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   align-items: center;
-  width: 100%;
+  width: 90%;
   padding: 1rem 1.25rem;
   font-size: 1rem;
   color: #212529;
@@ -4694,7 +4694,7 @@ textarea.form-control-lg {
   }
 }
 .accordion-button:not(.collapsed) {
-  color: #e6b400;
+  color: #ce7c2f;
   background-color: #fffae6;
   box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
 }
@@ -5091,7 +5091,7 @@ textarea.form-control-lg {
   z-index: 1;
   color: #495057;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: rgba(55, 55, 55, 0.98);
 }
 .list-group-item-action:active {
   color: #212529;
@@ -6705,9 +6705,10 @@ textarea.form-control-lg {
   overflow: auto !important;
 }
 
-.overflow-hidden {
-  overflow: hidden !important;
-}
+
+/* .overflow-hidden { */
+  /* overflow: hidden !important; */
+/* } */
 
 .overflow-visible {
   overflow: visible !important;

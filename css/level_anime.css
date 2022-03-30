@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'PixelMplus12';
+  src: url('../fonts/PixelMplus12-Bold.ttf') format('truetype');
+  }
+
+
+#modal-content{
+  padding:0 30px;
+  text-align: center;
+  }
+.inline{
+  display: inline-block;
+}
+
+#lv, #ohome_word{
+  font-family: 'PixelMplus12';
+  font-weight: bold;
+}
+
+.js-animation {
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(40px);
+  transition: all 1s;
+}
+.js-animation.is-show {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0px);
+}
+
+#lifeBar {
+  display: inline-block;
+  -webkit-appearance: none;
+  appearance: none;
+  height: 10px;
+  vertical-align: -0.2em;
+}
+
+#lifeBar::-webkit-progress-bar {
+background: #ccc;
+}
+
+#lifeBar::-webkit-progress-value {
+  background-color: #00cc00;
+}
+
+/* 桜を表示するコンテナのスタイル */
+.cherry-blossom-container {
+  position: relative;
+  height: 20vh; /* コンテナの高さ */
+  width: 50vw; /* コンテナの横幅 */
+  overflow: hidden; /* コンテナからはみ出した要素を隠す */
+}
+
+/* 桜の花びらのスタイル */
+.petal {
+  position: absolute;
+  background-color: #ffc0cb; /* 花びらの色 */
+  border-radius: 150% 0 150% 0;
+  animation: animate-petal 10s linear;
+}
+
+.petal::after {
+  content: "";
+  position: absolute;
+  top: -14%;
+  left: -10%;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #ffc0cb;
+  border-radius: 150% 0 150% 0;
+  transform: rotate(15deg);
+}
+
+/* 花びらが降るアニメーション */
+@keyframes animate-petal {
+  0% {
+    top: 0;
+    opacity: 0;
+    transform: rotate(0deg);
+  }
+  10% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top: 100vh;
+    transform: rotate(3000deg);
+  }
+}
+
+
+
+/* #level::before{ */
+.before{
+  content: "";
+position: absolute;
+top: 0;
+left: 0;
+display: block;
+width: 100%;
+height: 100%;
+z-index: -1;
+background-color: gold;
+-webkit-transform: scaleY(.3);
+transform: scaleY(.3);
+opacity: 0;
+transition: all .3s
+}
+
+/* #level:hover{ */
+.hover{
+  color:#6098FF;  
+}
+/* #level:hover::before{ */
+.hover_before{
+  opacity: 1;
+  background-color: #fff;
+  -webkit-transform: scaleY(1);
+  transform: scaleY(1);
+  transition: -webkit-transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity .4s;
+  transition: transform .6s cubic-bezier(.08, .35, .13, 1.02), opacity
+}
+
+
+
+
+

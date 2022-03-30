@@ -1,0 +1,161 @@
+PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:177
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(177): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:174
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(174): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:175
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(175): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\editConfirm\nameConfirm.php(37): UserLogic::editUserName(Array)
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET icon='akitainu004.jpg' WHERE user_id='65'' at line 1 in C:\xampp\htdocs\qandasite\classes\UserLogic.php:343
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(343): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\mypage.php(64): UserLogic::showIcon()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET icon='akitainu004.jpg' WHERE user_id='65'' at line 1 in C:\xampp\htdocs\qandasite\classes\UserLogic.php:343
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(343): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\mypage.php(21): UserLogic::showIcon()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET icon='akitainu004.jpg' WHERE user_id='65'' at line 1 in C:\xampp\htdocs\qandasite\classes\UserLogic.php:343
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(343): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\mypage.php(21): UserLogic::showIcon()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET icon='akitainu004.jpg' WHERE user_id='65'' at line 1 in C:\xampp\htdocs\qandasite\classes\UserLogic.php:343
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(343): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\mypage.php(21): UserLogic::showIcon()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET icon='akitainu004.jpg' WHERE user_id='65'' at line 1 in C:\xampp\htdocs\qandasite\classes\UserLogic.php:343
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(343): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\mypage.php(21): UserLogic::showIcon()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET icon='akitainu004.jpg' WHERE user_id='65'' at line 1 in C:\xampp\htdocs\qandasite\classes\UserLogic.php:343
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(343): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\mypage.php(21): UserLogic::showIcon()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET icon='akitainu004.jpg' WHERE user_id='65'' at line 1 in C:\xampp\htdocs\qandasite\classes\UserLogic.php:343
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(343): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\mypage.php(21): UserLogic::showIcon()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SET icon='akitainu004.jpg' WHERE user_id='65'' at line 1 in C:\xampp\htdocs\qandasite\classes\UserLogic.php:343
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(343): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\mypage.php(21): UserLogic::showIcon()
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:343
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(343): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\mypage.php(21): UserLogic::showIcon()
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\UserLogic.php:343
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(343): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\mypage.php(21): UserLogic::showIcon()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM users WHERE user_id='69'' at line 1 in C:\xampp\htdocs\qandasite\classes\UserLogic.php:402
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(402): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\userDelete.php(34): UserLogic::deleteUser(Array)
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM users WHERE user_id='69'' at line 1 in C:\xampp\htdocs\qandasite\classes\UserLogic.php:402
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(402): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\userDelete.php(34): UserLogic::deleteUser(Array)
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '* FROM users WHERE user_id='69'' at line 1 in C:\xampp\htdocs\qandasite\classes\UserLogic.php:402
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\UserLogic.php(402): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\userLogin\userDelete.php(34): UserLogic::deleteUser(Array)
+#2 {main}PDOException: SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens in C:\xampp\htdocs\qandasite\classes\LevelLogic.php:24
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\LevelLogic.php(24): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\top\level\levelDisp.php(20): LevelLogic::levelRanking()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '{$start}, 10' at line 1 in C:\xampp\htdocs\qandasite\classes\LevelLogic.php:21
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\LevelLogic.php(21): PDOStatement->execute()
+#1 C:\xampp\htdocs\qandasite\top\level\levelDisp.php(20): LevelLogic::levelRanking()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':start, 10' at line 1 in C:\xampp\htdocs\qandasite\classes\LevelLogic.php:22
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\LevelLogic.php(22): PDOStatement->execute()
+#1 C:\xampp\htdocs\qandasite\top\level\levelDisp.php(20): LevelLogic::levelRanking()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':start, 10' at line 1 in C:\xampp\htdocs\qandasite\classes\LevelLogic.php:23
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\LevelLogic.php(23): PDOStatement->execute()
+#1 C:\xampp\htdocs\qandasite\top\level\levelDisp.php(20): LevelLogic::levelRanking()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':start, 10' at line 1 in C:\xampp\htdocs\qandasite\classes\LevelLogic.php:23
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\LevelLogic.php(23): PDOStatement->execute()
+#1 C:\xampp\htdocs\qandasite\top\level\levelDisp.php(20): LevelLogic::levelRanking()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':start, 10' at line 1 in C:\xampp\htdocs\qandasite\classes\LevelLogic.php:23
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\LevelLogic.php(23): PDOStatement->execute()
+#1 C:\xampp\htdocs\qandasite\top\level\levelDisp.php(20): LevelLogic::levelRanking()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':start, 10' at line 1 in C:\xampp\htdocs\qandasite\classes\LevelLogic.php:23
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\LevelLogic.php(23): PDOStatement->execute()
+#1 C:\xampp\htdocs\qandasite\top\level\levelDisp.php(20): LevelLogic::levelRanking()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':start, 10' at line 1 in C:\xampp\htdocs\qandasite\classes\LevelLogic.php:23
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\LevelLogic.php(23): PDOStatement->execute()
+#1 C:\xampp\htdocs\qandasite\top\level\levelDisp.php(20): LevelLogic::levelRanking()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as cnt FROM users' at line 1 in C:\xampp\htdocs\qandasite\classes\LevelLogic.php:24
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\LevelLogic.php(24): PDOStatement->execute()
+#1 C:\xampp\htdocs\qandasite\top\level\levelDisp.php(20): LevelLogic::levelRanking()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as cnt FROM users' at line 1 in C:\xampp\htdocs\qandasite\classes\LevelLogic.php:24
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\LevelLogic.php(24): PDOStatement->execute()
+#1 C:\xampp\htdocs\qandasite\top\level\levelDisp.php(20): LevelLogic::levelRanking()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as cnt FROM users' at line 1 in C:\xampp\htdocs\qandasite\classes\LevelLogic.php:24
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\LevelLogic.php(24): PDOStatement->execute()
+#1 C:\xampp\htdocs\qandasite\top\level\levelDisp.php(20): LevelLogic::levelRanking()
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as cnt FROM users' at line 1 in C:\xampp\htdocs\qandasite\classes\LevelLogic.php:24
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\classes\LevelLogic.php(24): PDOStatement->execute()
+#1 C:\xampp\htdocs\qandasite\top\level\levelDisp.php(20): LevelLogic::levelRanking()
+#2 {main}
