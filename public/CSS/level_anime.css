@@ -47,9 +47,9 @@ background: #ccc;
 
 /* 桜を表示するコンテナのスタイル */
 .cherry-blossom-container {
-  position: relative;
+  margin:0 auto;
   height: 20vh; /* コンテナの高さ */
-  width: 50vw; /* コンテナの横幅 */
+  width: auto; /* コンテナの横幅 */
   overflow: hidden; /* コンテナからはみ出した要素を隠す */
 }
 

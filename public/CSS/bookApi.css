@@ -57,7 +57,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
 }
 .header {
   width: 100%;
-  background-color: #43cee0;
+  background-color: #ff9100;
 }
 .search {
   overflow: hidden;
@@ -84,7 +84,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
   line-height: 40px;
   font-size: 18px;
   color: #fff;
-  background-color: #43cee0;
+  background-color: #ff9100;
   cursor: pointer;
   border-radius: 5px;
   outline: none;
@@ -135,7 +135,7 @@ input:-webkit-autofill, textarea:-webkit-autofill {
 
 @media screen and (min-width: 769px) {
   .search__btn:hover {
-    background-color: #1eabbd;
+    background-color: #ff91009a;
   }
 }
 
@@ -151,3 +151,32 @@ input:-webkit-autofill, textarea:-webkit-autofill {
   }
 }
 
+/* =============================================== */
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #ff9100;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+@media (prefers-reduced-motion: reduce) {
+  .nav-link {
+    transition: none;
+  }
+}
+.nav-link:hover, .nav-link:focus {
+  color: #fd7f09;
+}
+.nav-link.disabled {
+  color: #6c757d;
+  pointer-events: none;
+  cursor: default;
+}
+
+
+@media(max-width:700px) {
+  a.nav-link {
+      padding: 0 8px 0 0;
+  }
+}

@@ -1,0 +1,28 @@
+PDOException: SQLSTATE[23000]: Integrity constraint violation: 1052 Column 'user_id' in field list is ambiguous in C:\xampp\htdocs\qandasite\app\QuestionLogic.php:60
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\app\QuestionLogic.php(60): PDOStatement->execute()
+#1 C:\xampp\htdocs\qandasite\public\userLogin\home.php(29): QuestionLogic::newQuestion()
+
+#2 {main}PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '退会済みユーザー' in 'field list' in C:\xampp\htdocs\qandasite\app\UserLogic.php:404
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\app\UserLogic.php(404): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\public\userDelete\confirm.php(22): UserLogic::deleteUser(Array)
+#2 {main}PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '退会済みユーザー' in 'field list' in C:\xampp\htdocs\qandasite\app\UserLogic.php:404
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\app\UserLogic.php(404): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\public\userDelete\confirm.php(22): UserLogic::deleteUser(Array)
+#2 {main}PDOException: SQLSTATE[42S22]: Column not found: 1054 Unknown column '' in 'field list' in C:\xampp\htdocs\qandasite\app\UserLogic.php:404
+Stack trace:
+#0 C:\xampp\htdocs\qandasite\app\UserLogic.php(404): PDOStatement->execute(Array)
+#1 C:\xampp\htdocs\qandasite\public\userDelete\confirm.php(22): UserLogic::deleteUser(Array)
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'JavaScriptのアラート'); </script>%'
+                    OR message LIKE...' at line 4 in C:\xampp\htdocs\novus\app\QuestionLogic.php:109
+Stack trace:
+#0 C:\xampp\htdocs\novus\app\QuestionLogic.php(109): PDOStatement->execute()
+#1 C:\xampp\htdocs\novus\public\top\index.php(16): QuestionLogic::searchQuestion(Array)
+#2 {main}PDOException: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'prompt(1)'">%'
+                    OR message LIKE '%<IMG SRC=/ onerror="ale...' at line 4 in C:\xampp\htdocs\novus\app\QuestionLogic.php:109
+Stack trace:
+#0 C:\xampp\htdocs\novus\app\QuestionLogic.php(109): PDOStatement->execute()
+#1 C:\xampp\htdocs\novus\public\top\index.php(16): QuestionLogic::searchQuestion(Array)
+#2 {main}

@@ -1,38 +1,42 @@
+
 <?php
-// ToDo編集
 require_once "../../../app/TodoAct.php";
 require_once '../../../app/Token.php';
 
-use Qanda\TodoAct;
-use Qanda\Token;
-use Qanda\Utils;
+use Novus\TodoAct;
+use Novus\Token;
+use Novus\Utils;
 
 $act = new ToDoAct();
 $act->begin(1);
 
+// ログインチェック
+$act->checkLogin();
+
 // トークンチェック
 Token::validate();
 
-$edittodoid = filter_input(INPUT_POST, 'edittodoid', FILTER_VALIDATE_INT);
-$edittodotitle = filter_input(INPUT_POST, 'edittodotitle');
-$edittododt = filter_input(INPUT_POST, 'edittododt');
+$editTodoId = filter_input(INPUT_POST, 'editTodoId');
+$editTodoTitle = filter_input(INPUT_POST, 'editTodoTitle');
+$editTodoDt = filter_input(INPUT_POST, 'editTodoDt');
 
-$edittodotitle = Utils::mbtrim($edittodotitle);
-
-if (!Utils::isStrLen($edittodotitle, 128)) {
-  // 範囲外
-  header('Location: ' . DOMAIN . '/public/todo/index.php?errid=invalidtitle');
-  exit;
+if (Utils::mbTrim($editTodoTitle) === "") {
+    // 何も入力されていない時(スペース入力も)
+    header('Location: ' . DOMAIN . '/public/todo/index.php?errSignal=noTitle');
+    exit;
+} elseif (!Utils::isStrLen($editTodoTitle, 100)) {
+    // 範囲外
+    header('Location: ' . DOMAIN . '/public/todo/index.php?errSignal=invalidTitle');
+    exit;
 }
 
-if (!Utils::checkDatetimeFormat($edittododt)) {
-  // 日付フォーマットが違う
-  header('Location: ' . DOMAIN . '/public/todo/index.php?errid=invalidformatdt');
-  exit;
+if (!Utils::checkDatetimeFormat($editTodoDt)) {
+    // 日付フォーマットが違う
+    header('Location: ' . DOMAIN . '/public/todo/index.php?errSignal=invalidformatdt');
+    exit;
 }
 
-// ToDo編集
-$act->edit($edittodoid, $edittodotitle, $edittododt);
+$act->edit($editTodoId, $editTodoTitle, $editTodoDt);
 
-// ToDo一覧へリダイレクト
+// todo一覧へリダイレクト
 header('Location: ' . DOMAIN . '/public/todo/index.php');

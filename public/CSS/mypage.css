@@ -1,5 +1,46 @@
-/* container */
 
+/*ヘッダメニュー*/
+header {
+    margin-top: 0;
+    width: 100%;
+}
+li {
+    font-size: 10px;
+    height: 60px;
+    float: right;
+}
+a#logo {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+#li {
+    padding-top: 20px;
+}
+#headerlogo {
+    padding-left: 20px;
+}
+@media(max-width:700px) {
+    a.nav-link {
+        padding: 0 8px 0 0;
+    }
+    a#logo {
+        font-size: smaller;
+    }
+}
+/* ここまでヘッダメニュー */
+
+/*ここから中央コンテンツ*/
+.wrapper .container{
+    max-width: 95%;
+    max-height: 100%;
+    margin-top: 0;
+    margin:10px auto;
+    background-color: rgba(236, 235, 235, 0.945);
+    padding:0px 10px;
+    text-align:center;
+    overflow-y: scroll;
+}
 h2#rankingtitle {
     text-align:center;
     padding-top: 20px;
@@ -14,215 +55,28 @@ h1 {
 a {
     text-decoration: none;
 }
-a #mypage {
+a#mypage {
     text-align:right;
 }
-
-#logout {
-    background-color: rgba(55, 55, 55, 0.98);
-    color: #ddd;
-    border: 0px solid rgba(55, 55, 55, 0.98);
-}
-
-/*メニュー*/
-header {
-
-    width: 100%;
-    height: 60px;
-    background-color: rgba(55, 55, 55, 0.98);
-    font-family: "Futura", Helvetica, sans-serif;
-}
-  
-/* Navbar & Navmenu color */
-:root {
-  --background-navbar: rgba(55, 55, 55, 0.98);
-}
-
-.header {
-  background: var(--background-navbar);
-  position: fixed;
-  width: 95%;
-  height: 40px;
-}
-
-/* Nav items */
-.menu {
-  list-style: none;
-  position: absolute;
-
-  width: 100%;
-  height: auto;
-  top: 0;
-  margin-top: 52px;
-  clear: both;
-  background: var(--background-navbar);
-  transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
-  transform: scale(1, 0);
-  transform-origin: top;
-}
-
-/* Hamburger menu button */
-.menu-btn:checked ~ .menu {
-    transform: scale(1, 1);
-    transform-origin: top;
-    transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
-}  
-
-/* Hamburger menbu text */
-
-.menu a, header form {
-    width: 100%;
-    text-decoration: none;
-    font-weight: 500;
-    letter-spacing: 2px;
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #ddd;
-
-    opacity: 1;
-    transition: 0.5s;
-}
-
-.menu li {
-    border-top: 1px solid rgb(75, 75, 75);
-    padding: 20px 0;
-    margin: 5px 30px;
-    opacity: 1;
-    transition: 0.5s;
-    z-index: 3;
-}
-
-.menu-btn:checked ~ .menu a,
-.menu-btn:checked ~ .menu form,
-.menu-btn:checked ~ .menu li {
-    opacity: 1;
-    transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.2s;
-}
-
-.menu-btn {
-    display: none;
-}
-
-.menu-icon {
-    display: inline-block;
-    position: relative;
-    cursor: pointer;
-    padding: 24px 14px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-}
-
-.navicon {
-    background: #ddd;
-    display: block;
-    height: 3px;
-    width: 26px;
-    position: relative;
-    transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
-}
-
-.navicon:before,
-.navicon:after {
-    content: "";
-    display: block;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background: #ddd;
-    transition: 0.3192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
-}
-
-.navicon:before {
-    top: 9px;
-}
-
-.navicon:after {
-    bottom: 9px;
-}
-
-/* Hamburger Menu Animation Start */
-.menu-btn:checked ~ .menu-icon .navicon:before {
-    transform: rotate(-45deg);
-}
-
-.menu-btn:checked ~ .menu-icon .navicon:after {
-    transform: rotate(45deg);
-}
-
-.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before {
-    top: 0;
-}
-.menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
-    bottom: 0;
-}
-
-.menu-btn:checked ~ .menu-icon .navicon {
-    background: rgba(0, 0, 0, 0);
-    transition: 0.2192s cubic-bezier(0.04, 0.04, 0.12, 0.96) 0.1008s;
-}
-/* Hamburger Menu Animation End */
-
-/* Navbar Container */
-.navtext-container {
-    width: 95%;
-    height: 60px;
-    position: absolute;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* Navbar Text */
-.navtext {
-    position: absolute;
-    text-transform: uppercase;
-    color: #ddd;
-    letter-spacing: 4px;
-    font-size: 20px;
-}
-/*ここまでメニュー*/
-section {
-    width:100%;
-    height: 100%;
-    text-align: center;
-    margin-top: 20px;
-    z-index: 3;
-}
-.wrapper .container{
-    max-width:95%;
-    height: 100%;
-    margin:10px auto;
-    padding-top: 20px;
-    background-color: rgba(236, 235, 235, 0.945);
-    padding:0px 10px;
-    text-align:center;
-    overflow: scroll;
-}
-/* content */
-.wrapper .content .heading{
-    margin:20px auto;
-    font-size: 24px;
-    font-weight: normal;
-    text-align: center;
+hr#dot {
+    height: 2px;
+    background: #bbb;
+    background-image: -webkit-linear-gradient(left, #eee, #777, #eee);
+    background-image: -moz-linear-gradient(left, #eee, #777, #eee);
+    background-image: -ms-linear-gradient(left, #eee, #777, #eee);
+    background-image: -o-linear-gradient(left, #eee, #777, #eee);
 }
 .content .level-list{
-    height: 500px;
-    text-align: center;
+    height: 100%;
 }
 form {
     margin: 20px auto;
 }
-@media (min-width: 992px) {
-    .wrapper .content .list {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-}
+
 /*レベルランキング*/
 /*アイコン表示*/
 .level-icon {
-    margin: 15px;
+    margin: 0 15px;
     text-align: center;
 }
 .level-icon img{
@@ -230,6 +84,36 @@ form {
 	width: 50px;
     height: 50px;
     border-radius: 50%;
+}
+/*順位表示　1位*/
+#first {
+    font-size: 33px;
+    font-weight: bold;
+    color: #daa520;
+    margin: 0;
+    padding-top: 30px;
+}
+/*順位表示　2位*/
+#second {
+    font-size: 27px;
+    font-weight: bold;
+    color: #a1a0a0;
+    margin: 0;
+    padding-top: 30px;
+}
+/*順位表示　3位*/
+#third {
+    font-size: 24px;
+    font-weight: bold;
+    color: #CD7F32;
+    margin: 0;
+    padding-top: 30px;
+}
+/*順位表示　4位以降*/
+p#rank {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
 }
 
 /*トップページのアイコン*/
@@ -241,34 +125,26 @@ form {
     text-align: center;
     margin:20px auto;
     width:100%;
-    height: 300px;
-    overflow: scroll;
+    height: 100%;
 }
 .level-list .list-item {
     align-items: center;
-}
-.wrapper .content .level-list{
-    display: block;
-    width:100%;
-    height: 100%;
-    height: 600px;
-    margin:20px auto;
-}
-.wrapper .content.list-item{
     line-height:2.3rem;
     font-size:17px;
     color:#666666;
 }
 .list-item img {
+    text-align: center;
     display: block;
     width:200px;
     height: 200px;
-    max-width:300px;
-    max-height: 300px;
+    max-width:1168px;
+    max-height: 347px;
     margin:20px auto;
     border-radius:100%;
+    z-index: 0;
 }
-label#editdisp  {
+label#editdisp {
     display: inline-block;
     font-size: 18px;
     text-align: right;
@@ -277,7 +153,7 @@ label#editdisp  {
     height: 30px;
     padding-top: 5px;
 }
-label  {
+label {
     display: inline-block;
     font-size: 18px;
     text-align: center;
@@ -286,7 +162,6 @@ label  {
     height: 30px;
     padding-top: 5px;
 }
-
 input,
 #file-upload-button {
     height: 40px;
@@ -336,7 +211,7 @@ input#editdetail {
     margin-top: 20px;
 }
 
-/*ページネーション*/
+/* ページネーション */
 ul.pagination {
     display: inline-block;
     padding: 0;
@@ -353,45 +228,32 @@ ul.pagination li a {
 /* モーダルウィンドウのcss設定 */
 /* 一番上に表示させるdiv */
 #modal-content{
-	/* ボックスの重なりの順序を指定 */
 	z-index:2;
-	/* divをブロック表示します。何も表示しないときは、none */
 	display:block;
-	/* 位置の固定 */
 	position:fixed;
-	/* 位置 */
 	top:30%;
 	left: 17%;
-	/* 幅・高さ */
 	width:65%;
 	height:auto;
-	/* 外側の余白 */
 	margin:auto;
-	/* 内側の余白 */
     padding-left: 40px;
 	padding-top: 15px;
-	/* 線 */
 	border:2px solid #aaa;
-	/* 背景の色 */
 	background:#fff;
+}
+#modal-close {
+    cursor: pointer;
 }
 /* 2番目に表示させるdiv半透明の膜 */
 #modal-overlay{
-	/* ボックスの重なりの順序を指定 */
 	z-index:1;
-	/* divをブロック表示します。何も表示しないときは、none */
 	display:block;
-	/* 位置の固定 */
 	position:fixed;
-	/* 位置 */
 	top:0;
 	left:0;
-	/* 幅・高さ */
 	width:100%;
 	height:100%;
-	/* 背景の色（半透明） */
 	background-color:rgba(51,51,51,0.6);
-	/* 外側の余白 */
 	margin-top:0px;
 }
 /*戻るボタン（userpage）*/

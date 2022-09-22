@@ -1,6 +1,6 @@
 <?php
 
-require_once '../../../config/configB.php';
+require_once '../../config/configB.php';
 function connect()
 
 {
